@@ -1,0 +1,15 @@
+
+{% extends 'rango/base.html' %}
+{% load static %}
+{% block title %}ABOUT{% endblock %}
+<body>
+
+        {% block body_block %}
+        <div class="hero-unit">
+        <img src="{% static "about.jpg" %}" alt ="about picture"></br>
+        <strong>This is the about us page :)</strong></br>
+        You have visted rango {{ count }} Times
+        {% endblock %}
+        </div>
+</body>
+</html>
